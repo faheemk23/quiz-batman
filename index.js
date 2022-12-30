@@ -63,3 +63,9 @@ function play(question, answer) {
   console.log("Current score: " + score)
   console.log("----------------------------------------")
 }
+
+function game() {
+  for (i = 0; i < questions.length; i++) {
+    play(questions[i].question, questions[i].answer)
+  }
+}
