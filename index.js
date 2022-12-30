@@ -75,3 +75,7 @@ function showScores() {
   console.log("High scores are as follows. Send a screenshot if you have broken one.")
   highScore.map(i => console.log(i.name + " : " + i.score))
 }
+
+welcome();
+game();
+showScores();
