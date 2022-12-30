@@ -69,3 +69,9 @@ function game() {
     play(questions[i].question, questions[i].answer)
   }
 }
+
+function showScores() {
+  console.log("Congratulations, your final score is: " + score)
+  console.log("High scores are as follows. Send a screenshot if you have broken one.")
+  highScore.map(i => console.log(i.name + " : " + i.score))
+}
