@@ -43,7 +43,10 @@ var questions = [
 
 function welcome() {
   var usrName = readlineSync.question("What's your name? ")
+  console.log("")
   console.log("Hello " + usrName + ", welcome to Quiz on Batman!")
+  console.log("")
+  console.log("Note: The answers are case-insensitive.")
   console.log("----------------------------------------")
 }
 
@@ -54,11 +57,14 @@ function play(question, answer) {
   var usrAns = readlineSync.question(question)
 
   if (usrAns.toUpperCase() === answer.toUpperCase()) {
+    console.log("")
     console.log("Right!")
 
     score++
   } else {
+    console.log("")
     console.log("Wrong!")
+    console.log("Correct Answer: " + answer)
   }
   console.log("Current score: " + score)
   console.log("----------------------------------------")
