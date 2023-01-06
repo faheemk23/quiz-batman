@@ -72,7 +72,7 @@ function welcome() {
   console.log("")
   console.log("Hello " + chalk.blue(usrName) + ", welcome to Quiz on Batman!")
   console.log("")
-  console.log("Note: The answers are case-insensitive.")
+  console.log("Note: Just input the number beside the option that you want to give as an answer.")
   console.log("----------------------------------------")
 }
 
