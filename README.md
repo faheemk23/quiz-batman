@@ -14,7 +14,7 @@ Note:
 * You don't need to use the "Enter" key.
 * Input other than keys 1 to 4 is invalid and won't result in anything.
 
-I have also added functionality such that if user breaks a high score updated high scores are shown. Used 'chalk' package for better visuals.
+I have also added functionality such that if user breaks a high score, updated high scores are shown. Used 'chalk' package for better visuals.
 
 [You can access the quiz here](https://replit.com/@FaheemKhan18/markTwo?embed=1&output=1)
 
